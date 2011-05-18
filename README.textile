@@ -1,0 +1,15 @@
+h1. Rails SSI
+
+rails-ssi gem is a set of helpers for SSI tags in your Rails app
+
+* ssi_include
+* ssi_datetime
+* ssi_if(expression
+* ssi_else
+* ssi_end
+
+<pre>
+  <%= ssi_include(users_path) %>
+</pre>
+
+Copyright (c) 2011 divineforest, evrone, released under the MIT license.
