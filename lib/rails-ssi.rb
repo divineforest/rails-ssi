@@ -22,6 +22,10 @@ module RailsSsi
       raw "<!--# include virtual='#{path}' -->"
     end
 
+    def ssi_echo(name, options = {})
+      "<!--# echo var='#{name}' #{"default='#{options[:default]}'" if options.key?(:default)} -->".html_safe
+    end
+
   end
 
 end

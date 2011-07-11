@@ -7,6 +7,7 @@ rails-ssi gem is a set of helpers for SSI tags in your Rails app
 * ssi_if(expression
 * ssi_else
 * ssi_end
+* ssi_echo
 
 <pre>
   <%= ssi_include(users_path) %>
